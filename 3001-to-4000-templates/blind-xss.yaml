@@ -4,8 +4,8 @@ info:
   name: Blind XSS
   author: shelled
   severity: medium
-  description: This template will spray blind XSS payloads into URLs. Use xss.report to check if the payload fired.
-  tags: xss,blind,generic
+  description: This template will spray blind XSS payloads into URLs. Use 'xss.report', 'bxsshunter.com', 'xsshunter.trufflesecurity.com', 'ez.pe' or 'self-hosted server' to check if the payload fired.
+  tags: xss, blind-xss, dast, bxss, generic
 
 requests:
   - method: GET
