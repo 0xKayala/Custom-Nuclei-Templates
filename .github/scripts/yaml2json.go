@@ -74,7 +74,7 @@ func main() {
 				if d.Info.Classification == (Classification{}) {
 					d.Info.Classification.CVSSScore = "N/A"
 				}
-				fpath := strings.Replace(path, "/home/runner/work/nuclei-templates/nuclei-templates/", "", 1)
+				fpath := strings.Replace(path, "/home/runner/work/custom-nuclei-templates/custom-nuclei-templates/", "", 1)
 				d.FilePath = fpath
 
 				data = append(data, d)
