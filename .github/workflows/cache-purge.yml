@@ -9,7 +9,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    if: github.repository == 'projectdiscovery/nuclei-templates'
+    if: github.repository == '0xKayala/Custom-Nuclei-Templates'
     steps:
       # Wait for 5 minutes
       - name: Wait for 2 minutes
