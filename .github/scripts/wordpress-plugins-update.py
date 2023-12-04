@@ -163,7 +163,7 @@ http:
         work_dir = os.getcwd()
         print(f"Current working directory: {work_dir}")
         helper_dir = f"{work_dir}/helpers/wordpress/plugins"
-        template_dir = f"{work_dir}/http/technologies/wordpress/plugins"
+        template_dir = f"{work_dir}/"
 
         if not os.path.exists(helper_dir):
             os.makedirs(helper_dir)
@@ -176,7 +176,7 @@ http:
         version_file.write(version)
         version_file.close()
 
-        template_path = f"http/technologies/wordpress/plugins/{name}.yaml"
+        template_path = f"{name}/{name}.yaml"
         template_file = open(template_path, "w")  # Dev environment
         template_file.write(template)
         template_file.close()
